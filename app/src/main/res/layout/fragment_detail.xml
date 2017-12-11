@@ -1,0 +1,97 @@
+<ScrollView android:id="@+id/detailsScrollView"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+   <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:useDefaultMargins="true">
+
+      <TextView
+         android:id="@+id/movieLabelTextView"
+         style="@style/MovieLabelTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_row="0"
+         android:text="@string/label_movie"/>
+
+      <TextView
+         android:id="@+id/movieTextView"
+         style="@style/MovieTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_row="0"/>
+
+      <TextView
+         android:id="@+id/directorLabelTextView"
+         style="@style/MovieLabelTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_row="1"
+         android:text="@string/label_director"/>
+
+      <TextView
+         android:id="@+id/directorTextView"
+         style="@style/MovieTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_row="1"/>
+
+      <TextView
+         android:id="@+id/actorLabelTextView"
+         style="@style/MovieLabelTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_row="2"
+         android:text="@string/label_actor"/>
+
+      <TextView
+         android:id="@+id/actorTextView"
+         style="@style/MovieTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_row="2"/>
+
+      <TextView
+         android:id="@+id/yearLabelTextView"
+         style="@style/MovieLabelTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_row="3"
+         android:text="@string/label_year"/>
+
+      <TextView
+         android:id="@+id/yearTextView"
+         style="@style/MovieTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_row="3"/>
+
+      <TextView
+         android:id="@+id/genreLabelTextView"
+         style="@style/MovieLabelTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_row="4"
+         android:text="@string/label_genre"/>
+
+      <TextView
+         android:id="@+id/genreTextView"
+         style="@style/MovieTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_row="4"/>
+   </GridLayout>
+</ScrollView>
